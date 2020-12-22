@@ -1,0 +1,11 @@
+---
+layout: home
+title: About Me
+subtitle:
+---
+<!-- I don't know a cleaner way to just assign one MD file to this HTML page -->
+{% for page in site.pages %}
+    {% if page.name == "aboutme.md" %}
+        {{ page.content }}
+    {% endif %}
+{% endfor %}  <!-- page -->

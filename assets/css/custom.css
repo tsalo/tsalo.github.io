@@ -1,0 +1,43 @@
+/* --- Colors for social media links --- */
+/* --- https://github.com/karthik/wesanderson/blob/651c94418c825928bee6be2f56a9562d4daf6422/R/colors.R#L12 --- */
+
+a.email:hover {
+	color:#9A8822;
+}
+
+a.github:hover {
+	color:#F5CDB4;
+}
+
+a.orcid:hover {
+	color:#F8AFA8;
+}
+
+a.scholar:hover {
+	color:#FDDDA0;
+}
+
+a.twitter:hover {
+	color:#74A089;
+}
+
+/* For the CV iframe */
+/* Responsive iFrame */
+
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
